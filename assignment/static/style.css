@@ -1,0 +1,33 @@
+.search_div {
+  background-color: #e9e9e9;
+}
+
+.search_div input[type=text] {
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-size: 17px;
+}
+
+button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+.displayed_rows table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.displayed_rows td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.displayed_rows tr:nth-child(even) {
+  background-color: #dddddd;
+}

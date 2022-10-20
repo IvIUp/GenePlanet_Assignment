@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Assignment</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='jquery.js') }}"></script>
+
+</script>
+<div class="search_div">
+    <form id="search_form" action="{{ url_for('index') }}">
+        <input id="search_bar" type="text" name="search_param" placeholder="Search for rsid">
+        <input id="submit_button" type="submit" value="Submit">
+    </form>
+</div>
+
+<section class="displayed_rows"></section>
